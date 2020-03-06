@@ -1,0 +1,1482 @@
+{
+  "21000": {
+    "constant": "cardinality_violation",
+    "meaning": "CARDINALITY VIOLATION",
+    "class": {
+      "code": "21",
+      "title": "Cardinality Violation"
+    }
+  },
+  "22000": {
+    "constant": "data_exception",
+    "meaning": "DATA EXCEPTION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22001": {
+    "constant": "string_data_right_truncation",
+    "meaning": "STRING DATA RIGHT TRUNCATION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22002": {
+    "constant": "null_value_no_indicator_parameter",
+    "meaning": "NULL VALUE NO INDICATOR PARAMETER",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22003": {
+    "constant": "numeric_value_out_of_range",
+    "meaning": "NUMERIC VALUE OUT OF RANGE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22004": {
+    "constant": "null_value_not_allowed",
+    "meaning": "NULL VALUE NOT ALLOWED",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22005": {
+    "constant": "error_in_assignment",
+    "meaning": "ERROR IN ASSIGNMENT",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22007": {
+    "constant": "invalid_datetime_format",
+    "meaning": "INVALID DATETIME FORMAT",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22008": {
+    "constant": "datetime_field_overflow",
+    "meaning": "DATETIME FIELD OVERFLOW",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22009": {
+    "constant": "invalid_time_zone_displacement_value",
+    "meaning": "INVALID TIME ZONE DISPLACEMENT VALUE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22010": {
+    "constant": "invalid_indicator_parameter_value",
+    "meaning": "INVALID INDICATOR PARAMETER VALUE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22011": {
+    "constant": "substring_error",
+    "meaning": "SUBSTRING ERROR",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22012": {
+    "constant": "division_by_zero",
+    "meaning": "DIVISION BY ZERO",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22015": {
+    "constant": "interval_field_overflow",
+    "meaning": "INTERVAL FIELD OVERFLOW",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22018": {
+    "constant": "invalid_character_value_for_cast",
+    "meaning": "INVALID CHARACTER VALUE FOR CAST",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22019": {
+    "constant": "invalid_escape_character",
+    "meaning": "INVALID ESCAPE CHARACTER",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22020": {
+    "constant": "invalid_limit_value",
+    "meaning": "INVALID LIMIT VALUE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22021": {
+    "constant": "character_not_in_repertoire",
+    "meaning": "CHARACTER NOT IN REPERTOIRE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22022": {
+    "constant": "indicator_overflow",
+    "meaning": "INDICATOR OVERFLOW",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22023": {
+    "constant": "invalid_parameter_value",
+    "meaning": "INVALID PARAMETER VALUE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22024": {
+    "constant": "unterminated_c_string",
+    "meaning": "UNTERMINATED C STRING",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22025": {
+    "constant": "invalid_escape_sequence",
+    "meaning": "INVALID ESCAPE SEQUENCE",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22026": {
+    "constant": "string_data_length_mismatch",
+    "meaning": "STRING DATA LENGTH MISMATCH",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22027": {
+    "constant": "trim_error",
+    "meaning": "TRIM ERROR",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "23000": {
+    "constant": "integrity_constraint_violation",
+    "meaning": "INTEGRITY CONSTRAINT VIOLATION",
+    "class": {
+      "code": "23",
+      "title": "Integrity Constraint Violation"
+    }
+  },
+  "23001": {
+    "constant": "restrict_violation",
+    "meaning": "RESTRICT VIOLATION",
+    "class": {
+      "code": "23",
+      "title": "Integrity Constraint Violation"
+    }
+  },
+  "23502": {
+    "constant": "not_null_violation",
+    "meaning": "NOT NULL VIOLATION",
+    "class": {
+      "code": "23",
+      "title": "Integrity Constraint Violation"
+    }
+  },
+  "23503": {
+    "constant": "foreign_key_violation",
+    "meaning": "FOREIGN KEY VIOLATION",
+    "class": {
+      "code": "23",
+      "title": "Integrity Constraint Violation"
+    }
+  },
+  "23505": {
+    "constant": "unique_violation",
+    "meaning": "UNIQUE VIOLATION",
+    "class": {
+      "code": "23",
+      "title": "Integrity Constraint Violation"
+    }
+  },
+  "23514": {
+    "constant": "check_violation",
+    "meaning": "CHECK VIOLATION",
+    "class": {
+      "code": "23",
+      "title": "Integrity Constraint Violation"
+    }
+  },
+  "24000": {
+    "constant": "invalid_cursor_state",
+    "meaning": "INVALID CURSOR STATE",
+    "class": {
+      "code": "24",
+      "title": "Invalid Cursor State"
+    }
+  },
+  "25000": {
+    "constant": "invalid_transaction_state",
+    "meaning": "INVALID TRANSACTION STATE",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25001": {
+    "constant": "active_sql_transaction",
+    "meaning": "ACTIVE SQL TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25002": {
+    "constant": "branch_transaction_already_active",
+    "meaning": "BRANCH TRANSACTION ALREADY ACTIVE",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25003": {
+    "constant": "inappropriate_access_mode_for_branch_transaction",
+    "meaning": "INAPPROPRIATE ACCESS MODE FOR BRANCH TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25004": {
+    "constant": "\n          inappropriate_isolation_level_for_branch_transaction",
+    "meaning": "INAPPROPRIATE ISOLATION LEVEL FOR BRANCH\n          TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25005": {
+    "constant": "no_active_sql_transaction_for_branch_transaction",
+    "meaning": "NO ACTIVE SQL TRANSACTION FOR BRANCH TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25006": {
+    "constant": "read_only_sql_transaction",
+    "meaning": "READ ONLY SQL TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25007": {
+    "constant": "schema_and_data_statement_mixing_not_supported",
+    "meaning": "SCHEMA AND DATA STATEMENT MIXING NOT SUPPORTED",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25008": {
+    "constant": "held_cursor_requires_same_isolation_level",
+    "meaning": "HELD CURSOR REQUIRES SAME ISOLATION LEVEL",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "26000": {
+    "constant": "invalid_sql_statement_name",
+    "meaning": "INVALID SQL STATEMENT NAME",
+    "class": {
+      "code": "26",
+      "title": "Invalid SQL Statement Name"
+    }
+  },
+  "27000": {
+    "constant": "triggered_data_change_violation",
+    "meaning": "TRIGGERED DATA CHANGE VIOLATION",
+    "class": {
+      "code": "27",
+      "title": "Triggered Data Change Violation"
+    }
+  },
+  "28000": {
+    "constant": "invalid_authorization_specification",
+    "meaning": "INVALID AUTHORIZATION SPECIFICATION",
+    "class": {
+      "code": "28",
+      "title": "Invalid Authorization Specification"
+    }
+  },
+  "34000": {
+    "constant": "invalid_cursor_name",
+    "meaning": "INVALID CURSOR NAME",
+    "class": {
+      "code": "34",
+      "title": "Invalid Cursor Name"
+    }
+  },
+  "38000": {
+    "constant": "external_routine_exception",
+    "meaning": "EXTERNAL ROUTINE EXCEPTION",
+    "class": {
+      "code": "38",
+      "title": "External Routine Exception"
+    }
+  },
+  "38001": {
+    "constant": "containing_sql_not_permitted",
+    "meaning": "CONTAINING SQL NOT PERMITTED",
+    "class": {
+      "code": "38",
+      "title": "External Routine Exception"
+    }
+  },
+  "38002": {
+    "constant": "modifying_sql_data_not_permitted",
+    "meaning": "MODIFYING SQL DATA NOT PERMITTED",
+    "class": {
+      "code": "38",
+      "title": "External Routine Exception"
+    }
+  },
+  "38003": {
+    "constant": "prohibited_sql_statement_attempted",
+    "meaning": "PROHIBITED SQL STATEMENT ATTEMPTED",
+    "class": {
+      "code": "38",
+      "title": "External Routine Exception"
+    }
+  },
+  "38004": {
+    "constant": "reading_sql_data_not_permitted",
+    "meaning": "READING SQL DATA NOT PERMITTED",
+    "class": {
+      "code": "38",
+      "title": "External Routine Exception"
+    }
+  },
+  "39000": {
+    "constant": "external_routine_invocation_exception",
+    "meaning": "EXTERNAL ROUTINE INVOCATION EXCEPTION",
+    "class": {
+      "code": "39",
+      "title": "External Routine Invocation Exception"
+    }
+  },
+  "39001": {
+    "constant": "invalid_sqlstate_returned",
+    "meaning": "INVALID SQLSTATE RETURNED",
+    "class": {
+      "code": "39",
+      "title": "External Routine Invocation Exception"
+    }
+  },
+  "39004": {
+    "constant": "null_value_not_allowed",
+    "meaning": "NULL VALUE NOT ALLOWED",
+    "class": {
+      "code": "39",
+      "title": "External Routine Invocation Exception"
+    }
+  },
+  "40000": {
+    "constant": "transaction_rollback",
+    "meaning": "TRANSACTION ROLLBACK",
+    "class": {
+      "code": "40",
+      "title": "Transaction Rollback"
+    }
+  },
+  "40001": {
+    "constant": "serialization_failure",
+    "meaning": "SERIALIZATION FAILURE",
+    "class": {
+      "code": "40",
+      "title": "Transaction Rollback"
+    }
+  },
+  "40002": {
+    "constant": "transaction_integrity_constraint_violation",
+    "meaning": "TRANSACTION INTEGRITY CONSTRAINT VIOLATION",
+    "class": {
+      "code": "40",
+      "title": "Transaction Rollback"
+    }
+  },
+  "40003": {
+    "constant": "statement_completion_unknown",
+    "meaning": "STATEMENT COMPLETION UNKNOWN",
+    "class": {
+      "code": "40",
+      "title": "Transaction Rollback"
+    }
+  },
+  "42000": {
+    "constant": "syntax_error_or_access_rule_violation",
+    "meaning": "SYNTAX ERROR OR ACCESS RULE VIOLATION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42501": {
+    "constant": "insufficient_privilege",
+    "meaning": "INSUFFICIENT PRIVILEGE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42601": {
+    "constant": "syntax_error",
+    "meaning": "SYNTAX ERROR",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42602": {
+    "constant": "invalid_name",
+    "meaning": "INVALID NAME",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42611": {
+    "constant": "invalid_column_definition",
+    "meaning": "INVALID COLUMN DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42622": {
+    "constant": "name_too_long",
+    "meaning": "NAME TOO LONG",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42701": {
+    "constant": "duplicate_column",
+    "meaning": "DUPLICATE COLUMN",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42702": {
+    "constant": "ambiguous_column",
+    "meaning": "AMBIGUOUS COLUMN",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42703": {
+    "constant": "undefined_column",
+    "meaning": "UNDEFINED COLUMN",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42704": {
+    "constant": "undefined_object",
+    "meaning": "UNDEFINED OBJECT",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42710": {
+    "constant": "duplicate_object",
+    "meaning": "DUPLICATE OBJECT",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42712": {
+    "constant": "duplicate_alias",
+    "meaning": "DUPLICATE ALIAS",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42723": {
+    "constant": "duplicate_function",
+    "meaning": "DUPLICATE FUNCTION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42725": {
+    "constant": "ambiguous_function",
+    "meaning": "AMBIGUOUS FUNCTION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42803": {
+    "constant": "grouping_error",
+    "meaning": "GROUPING ERROR",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42804": {
+    "constant": "datatype_mismatch",
+    "meaning": "DATATYPE MISMATCH",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42809": {
+    "constant": "wrong_object_type",
+    "meaning": "WRONG OBJECT TYPE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42830": {
+    "constant": "invalid_foreign_key",
+    "meaning": "INVALID FOREIGN KEY",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42846": {
+    "constant": "cannot_coerce",
+    "meaning": "CANNOT COERCE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42883": {
+    "constant": "undefined_function",
+    "meaning": "UNDEFINED FUNCTION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42939": {
+    "constant": "reserved_name",
+    "meaning": "RESERVED NAME",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "44000": {
+    "constant": "with_check_option_violation",
+    "meaning": "WITH CHECK OPTION VIOLATION",
+    "class": {
+      "code": "44",
+      "title": "WITH CHECK OPTION Violation"
+    }
+  },
+  "53000": {
+    "constant": "insufficient_resources",
+    "meaning": "INSUFFICIENT RESOURCES",
+    "class": {
+      "code": "53",
+      "title": "Insufficient Resources"
+    }
+  },
+  "53100": {
+    "constant": "disk_full",
+    "meaning": "DISK FULL",
+    "class": {
+      "code": "53",
+      "title": "Insufficient Resources"
+    }
+  },
+  "53200": {
+    "constant": "out_of_memory",
+    "meaning": "OUT OF MEMORY",
+    "class": {
+      "code": "53",
+      "title": "Insufficient Resources"
+    }
+  },
+  "53300": {
+    "constant": "too_many_connections",
+    "meaning": "TOO MANY CONNECTIONS",
+    "class": {
+      "code": "53",
+      "title": "Insufficient Resources"
+    }
+  },
+  "54000": {
+    "constant": "program_limit_exceeded",
+    "meaning": "PROGRAM LIMIT EXCEEDED",
+    "class": {
+      "code": "54",
+      "title": "Program Limit Exceeded"
+    }
+  },
+  "54001": {
+    "constant": "statement_too_complex",
+    "meaning": "STATEMENT TOO COMPLEX",
+    "class": {
+      "code": "54",
+      "title": "Program Limit Exceeded"
+    }
+  },
+  "54011": {
+    "constant": "too_many_columns",
+    "meaning": "TOO MANY COLUMNS",
+    "class": {
+      "code": "54",
+      "title": "Program Limit Exceeded"
+    }
+  },
+  "54023": {
+    "constant": "too_many_arguments",
+    "meaning": "TOO MANY ARGUMENTS",
+    "class": {
+      "code": "54",
+      "title": "Program Limit Exceeded"
+    }
+  },
+  "55000": {
+    "constant": "object_not_in_prerequisite_state",
+    "meaning": "OBJECT NOT IN PREREQUISITE STATE",
+    "class": {
+      "code": "55",
+      "title": "Object Not In Prerequisite State"
+    }
+  },
+  "55006": {
+    "constant": "object_in_use",
+    "meaning": "OBJECT IN USE",
+    "class": {
+      "code": "55",
+      "title": "Object Not In Prerequisite State"
+    }
+  },
+  "57000": {
+    "constant": "operator_intervention",
+    "meaning": "OPERATOR INTERVENTION",
+    "class": {
+      "code": "57",
+      "title": "Operator Intervention"
+    }
+  },
+  "57014": {
+    "constant": "query_canceled",
+    "meaning": "QUERY CANCELED",
+    "class": {
+      "code": "57",
+      "title": "Operator Intervention"
+    }
+  },
+  "58030": {
+    "constant": "io_error",
+    "meaning": "IO ERROR",
+    "class": {
+      "code": "58",
+      "title": "System Error (errors external to PostgreSQL itself)"
+    }
+  },
+  "00000": {
+    "constant": "successful_completion",
+    "meaning": "SUCCESSFUL COMPLETION",
+    "class": {
+      "code": "00",
+      "title": "Successful Completion"
+    }
+  },
+  "01000": {
+    "constant": "warning",
+    "meaning": "WARNING",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "0100C": {
+    "constant": "dynamic_result_sets_returned",
+    "meaning": "DYNAMIC RESULT SETS RETURNED",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "01008": {
+    "constant": "implicit_zero_bit_padding",
+    "meaning": "IMPLICIT ZERO BIT PADDING",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "01003": {
+    "constant": "null_value_eliminated_in_set_function",
+    "meaning": "NULL VALUE ELIMINATED IN SET FUNCTION",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "01007": {
+    "constant": "privilege_not_granted",
+    "meaning": "PRIVILEGE NOT GRANTED",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "01006": {
+    "constant": "privilege_not_revoked",
+    "meaning": "PRIVILEGE NOT REVOKED",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "01004": {
+    "constant": "string_data_right_truncation",
+    "meaning": "STRING DATA RIGHT TRUNCATION",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "01P01": {
+    "constant": "deprecated_feature",
+    "meaning": "DEPRECATED FEATURE",
+    "class": {
+      "code": "01",
+      "title": "Warning"
+    }
+  },
+  "02000": {
+    "constant": "no_data",
+    "meaning": "NO DATA",
+    "class": {
+      "code": "02",
+      "title": "No Data (this is also a warning class per the SQL\n          standard)"
+    }
+  },
+  "02001": {
+    "constant": "no_additional_dynamic_result_sets_returned",
+    "meaning": "NO ADDITIONAL DYNAMIC RESULT SETS RETURNED",
+    "class": {
+      "code": "02",
+      "title": "No Data (this is also a warning class per the SQL\n          standard)"
+    }
+  },
+  "03000": {
+    "constant": "sql_statement_not_yet_complete",
+    "meaning": "SQL STATEMENT NOT YET COMPLETE",
+    "class": {
+      "code": "03",
+      "title": "SQL Statement Not Yet Complete"
+    }
+  },
+  "08000": {
+    "constant": "connection_exception",
+    "meaning": "CONNECTION EXCEPTION",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "08003": {
+    "constant": "connection_does_not_exist",
+    "meaning": "CONNECTION DOES NOT EXIST",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "08006": {
+    "constant": "connection_failure",
+    "meaning": "CONNECTION FAILURE",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "08001": {
+    "constant": "sqlclient_unable_to_establish_sqlconnection",
+    "meaning": "SQLCLIENT UNABLE TO ESTABLISH SQLCONNECTION",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "08004": {
+    "constant": "\n          sqlserver_rejected_establishment_of_sqlconnection",
+    "meaning": "SQLSERVER REJECTED ESTABLISHMENT OF\n          SQLCONNECTION",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "08007": {
+    "constant": "transaction_resolution_unknown",
+    "meaning": "TRANSACTION RESOLUTION UNKNOWN",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "08P01": {
+    "constant": "protocol_violation",
+    "meaning": "PROTOCOL VIOLATION",
+    "class": {
+      "code": "08",
+      "title": "Connection Exception"
+    }
+  },
+  "09000": {
+    "constant": "triggered_action_exception",
+    "meaning": "TRIGGERED ACTION EXCEPTION",
+    "class": {
+      "code": "09",
+      "title": "Triggered Action Exception"
+    }
+  },
+  "0A000": {
+    "constant": "feature_not_supported",
+    "meaning": "FEATURE NOT SUPPORTED",
+    "class": {
+      "code": "0A",
+      "title": "Feature Not Supported"
+    }
+  },
+  "0B000": {
+    "constant": "invalid_transaction_initiation",
+    "meaning": "INVALID TRANSACTION INITIATION",
+    "class": {
+      "code": "0B",
+      "title": "Invalid Transaction Initiation"
+    }
+  },
+  "0F000": {
+    "constant": "locator_exception",
+    "meaning": "LOCATOR EXCEPTION",
+    "class": {
+      "code": "0F",
+      "title": "Locator Exception"
+    }
+  },
+  "0F001": {
+    "constant": "invalid_locator_specification",
+    "meaning": "INVALID LOCATOR SPECIFICATION",
+    "class": {
+      "code": "0F",
+      "title": "Locator Exception"
+    }
+  },
+  "0L000": {
+    "constant": "invalid_grantor",
+    "meaning": "INVALID GRANTOR",
+    "class": {
+      "code": "0L",
+      "title": "Invalid Grantor"
+    }
+  },
+  "0LP01": {
+    "constant": "invalid_grant_operation",
+    "meaning": "INVALID GRANT OPERATION",
+    "class": {
+      "code": "0L",
+      "title": "Invalid Grantor"
+    }
+  },
+  "0P000": {
+    "constant": "invalid_role_specification",
+    "meaning": "INVALID ROLE SPECIFICATION",
+    "class": {
+      "code": "0P",
+      "title": "Invalid Role Specification"
+    }
+  },
+  "2202E": {
+    "constant": "array_subscript_error",
+    "meaning": "ARRAY SUBSCRIPT ERROR",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2200B": {
+    "constant": "escape_character_conflict",
+    "meaning": "ESCAPE CHARACTER CONFLICT",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2201E": {
+    "constant": "invalid_argument_for_logarithm",
+    "meaning": "INVALID ARGUMENT FOR LOGARITHM",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2201F": {
+    "constant": "invalid_argument_for_power_function",
+    "meaning": "INVALID ARGUMENT FOR POWER FUNCTION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2201G": {
+    "constant": "invalid_argument_for_width_bucket_function",
+    "meaning": "INVALID ARGUMENT FOR WIDTH BUCKET FUNCTION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2200D": {
+    "constant": "invalid_escape_octet",
+    "meaning": "INVALID ESCAPE OCTET",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22P06": {
+    "constant": "nonstandard_use_of_escape_character",
+    "meaning": "NONSTANDARD USE OF ESCAPE CHARACTER",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2201B": {
+    "constant": "invalid_regular_expression",
+    "meaning": "INVALID REGULAR EXPRESSION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2200C": {
+    "constant": "invalid_use_of_escape_character",
+    "meaning": "INVALID USE OF ESCAPE CHARACTER",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2200G": {
+    "constant": "most_specific_type_mismatch",
+    "meaning": "MOST SPECIFIC TYPE MISMATCH",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "2200F": {
+    "constant": "zero_length_character_string",
+    "meaning": "ZERO LENGTH CHARACTER STRING",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22P01": {
+    "constant": "floating_point_exception",
+    "meaning": "FLOATING POINT EXCEPTION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22P02": {
+    "constant": "invalid_text_representation",
+    "meaning": "INVALID TEXT REPRESENTATION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22P03": {
+    "constant": "invalid_binary_representation",
+    "meaning": "INVALID BINARY REPRESENTATION",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22P04": {
+    "constant": "bad_copy_file_format",
+    "meaning": "BAD COPY FILE FORMAT",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "22P05": {
+    "constant": "untranslatable_character",
+    "meaning": "UNTRANSLATABLE CHARACTER",
+    "class": {
+      "code": "22",
+      "title": "Data Exception"
+    }
+  },
+  "25P01": {
+    "constant": "no_active_sql_transaction",
+    "meaning": "NO ACTIVE SQL TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "25P02": {
+    "constant": "in_failed_sql_transaction",
+    "meaning": "IN FAILED SQL TRANSACTION",
+    "class": {
+      "code": "25",
+      "title": "Invalid Transaction State"
+    }
+  },
+  "2B000": {
+    "constant": "dependent_privilege_descriptors_still_exist",
+    "meaning": "DEPENDENT PRIVILEGE DESCRIPTORS STILL EXIST",
+    "class": {
+      "code": "2B",
+      "title": "Dependent Privilege Descriptors Still Exist"
+    }
+  },
+  "2BP01": {
+    "constant": "dependent_objects_still_exist",
+    "meaning": "DEPENDENT OBJECTS STILL EXIST",
+    "class": {
+      "code": "2B",
+      "title": "Dependent Privilege Descriptors Still Exist"
+    }
+  },
+  "2D000": {
+    "constant": "invalid_transaction_termination",
+    "meaning": "INVALID TRANSACTION TERMINATION",
+    "class": {
+      "code": "2D",
+      "title": "Invalid Transaction Termination"
+    }
+  },
+  "2F000": {
+    "constant": "sql_routine_exception",
+    "meaning": "SQL ROUTINE EXCEPTION",
+    "class": {
+      "code": "2F",
+      "title": "SQL Routine Exception"
+    }
+  },
+  "2F005": {
+    "constant": "function_executed_no_return_statement",
+    "meaning": "FUNCTION EXECUTED NO RETURN STATEMENT",
+    "class": {
+      "code": "2F",
+      "title": "SQL Routine Exception"
+    }
+  },
+  "2F002": {
+    "constant": "modifying_sql_data_not_permitted",
+    "meaning": "MODIFYING SQL DATA NOT PERMITTED",
+    "class": {
+      "code": "2F",
+      "title": "SQL Routine Exception"
+    }
+  },
+  "2F003": {
+    "constant": "prohibited_sql_statement_attempted",
+    "meaning": "PROHIBITED SQL STATEMENT ATTEMPTED",
+    "class": {
+      "code": "2F",
+      "title": "SQL Routine Exception"
+    }
+  },
+  "2F004": {
+    "constant": "reading_sql_data_not_permitted",
+    "meaning": "READING SQL DATA NOT PERMITTED",
+    "class": {
+      "code": "2F",
+      "title": "SQL Routine Exception"
+    }
+  },
+  "39P01": {
+    "constant": "trigger_protocol_violated",
+    "meaning": "TRIGGER PROTOCOL VIOLATED",
+    "class": {
+      "code": "39",
+      "title": "External Routine Invocation Exception"
+    }
+  },
+  "39P02": {
+    "constant": "srf_protocol_violated",
+    "meaning": "SRF PROTOCOL VIOLATED",
+    "class": {
+      "code": "39",
+      "title": "External Routine Invocation Exception"
+    }
+  },
+  "3B000": {
+    "constant": "savepoint_exception",
+    "meaning": "SAVEPOINT EXCEPTION",
+    "class": {
+      "code": "3B",
+      "title": "Savepoint Exception"
+    }
+  },
+  "3B001": {
+    "constant": "invalid_savepoint_specification",
+    "meaning": "INVALID SAVEPOINT SPECIFICATION",
+    "class": {
+      "code": "3B",
+      "title": "Savepoint Exception"
+    }
+  },
+  "3D000": {
+    "constant": "invalid_catalog_name",
+    "meaning": "INVALID CATALOG NAME",
+    "class": {
+      "code": "3D",
+      "title": "Invalid Catalog Name"
+    }
+  },
+  "3F000": {
+    "constant": "invalid_schema_name",
+    "meaning": "INVALID SCHEMA NAME",
+    "class": {
+      "code": "3F",
+      "title": "Invalid Schema Name"
+    }
+  },
+  "40P01": {
+    "constant": "deadlock_detected",
+    "meaning": "DEADLOCK DETECTED",
+    "class": {
+      "code": "40",
+      "title": "Transaction Rollback"
+    }
+  },
+  "42P18": {
+    "constant": "indeterminate_datatype",
+    "meaning": "INDETERMINATE DATATYPE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P01": {
+    "constant": "undefined_table",
+    "meaning": "UNDEFINED TABLE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P02": {
+    "constant": "undefined_parameter",
+    "meaning": "UNDEFINED PARAMETER",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P03": {
+    "constant": "duplicate_cursor",
+    "meaning": "DUPLICATE CURSOR",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P04": {
+    "constant": "duplicate_database",
+    "meaning": "DUPLICATE DATABASE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P05": {
+    "constant": "duplicate_prepared_statement",
+    "meaning": "DUPLICATE PREPARED STATEMENT",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P06": {
+    "constant": "duplicate_schema",
+    "meaning": "DUPLICATE SCHEMA",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P07": {
+    "constant": "duplicate_table",
+    "meaning": "DUPLICATE TABLE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P08": {
+    "constant": "ambiguous_parameter",
+    "meaning": "AMBIGUOUS PARAMETER",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P09": {
+    "constant": "ambiguous_alias",
+    "meaning": "AMBIGUOUS ALIAS",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P10": {
+    "constant": "invalid_column_reference",
+    "meaning": "INVALID COLUMN REFERENCE",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P11": {
+    "constant": "invalid_cursor_definition",
+    "meaning": "INVALID CURSOR DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P12": {
+    "constant": "invalid_database_definition",
+    "meaning": "INVALID DATABASE DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P13": {
+    "constant": "invalid_function_definition",
+    "meaning": "INVALID FUNCTION DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P14": {
+    "constant": "invalid_prepared_statement_definition",
+    "meaning": "INVALID PREPARED STATEMENT DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P15": {
+    "constant": "invalid_schema_definition",
+    "meaning": "INVALID SCHEMA DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P16": {
+    "constant": "invalid_table_definition",
+    "meaning": "INVALID TABLE DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "42P17": {
+    "constant": "invalid_object_definition",
+    "meaning": "INVALID OBJECT DEFINITION",
+    "class": {
+      "code": "42",
+      "title": "Syntax Error or Access Rule Violation"
+    }
+  },
+  "55P02": {
+    "constant": "cant_change_runtime_param",
+    "meaning": "CANT CHANGE RUNTIME PARAM",
+    "class": {
+      "code": "55",
+      "title": "Object Not In Prerequisite State"
+    }
+  },
+  "55P03": {
+    "constant": "lock_not_available",
+    "meaning": "LOCK NOT AVAILABLE",
+    "class": {
+      "code": "55",
+      "title": "Object Not In Prerequisite State"
+    }
+  },
+  "57P01": {
+    "constant": "admin_shutdown",
+    "meaning": "ADMIN SHUTDOWN",
+    "class": {
+      "code": "57",
+      "title": "Operator Intervention"
+    }
+  },
+  "57P02": {
+    "constant": "crash_shutdown",
+    "meaning": "CRASH SHUTDOWN",
+    "class": {
+      "code": "57",
+      "title": "Operator Intervention"
+    }
+  },
+  "57P03": {
+    "constant": "cannot_connect_now",
+    "meaning": "CANNOT CONNECT NOW",
+    "class": {
+      "code": "57",
+      "title": "Operator Intervention"
+    }
+  },
+  "58P01": {
+    "constant": "undefined_file",
+    "meaning": "UNDEFINED FILE",
+    "class": {
+      "code": "58",
+      "title": "System Error (errors external to PostgreSQL itself)"
+    }
+  },
+  "58P02": {
+    "constant": "duplicate_file",
+    "meaning": "DUPLICATE FILE",
+    "class": {
+      "code": "58",
+      "title": "System Error (errors external to PostgreSQL itself)"
+    }
+  },
+  "F0000": {
+    "constant": "config_file_error",
+    "meaning": "CONFIG FILE ERROR",
+    "class": {
+      "code": "F0",
+      "title": "Configuration File Error"
+    }
+  },
+  "F0001": {
+    "constant": "lock_file_exists",
+    "meaning": "LOCK FILE EXISTS",
+    "class": {
+      "code": "F0",
+      "title": "Configuration File Error"
+    }
+  },
+  "P0000": {
+    "constant": "plpgsql_error",
+    "meaning": "PLPGSQL ERROR",
+    "class": {
+      "code": "P0",
+      "title": "PL/pgSQL Error"
+    }
+  },
+  "P0001": {
+    "constant": "raise_exception",
+    "meaning": "RAISE EXCEPTION",
+    "class": {
+      "code": "P0",
+      "title": "PL/pgSQL Error"
+    }
+  },
+  "P0002": {
+    "constant": "no_data_found",
+    "meaning": "NO DATA FOUND",
+    "class": {
+      "code": "P0",
+      "title": "PL/pgSQL Error"
+    }
+  },
+  "P0003": {
+    "constant": "too_many_rows",
+    "meaning": "TOO MANY ROWS",
+    "class": {
+      "code": "P0",
+      "title": "PL/pgSQL Error"
+    }
+  },
+  "XX000": {
+    "constant": "internal_error",
+    "meaning": "INTERNAL ERROR",
+    "class": {
+      "code": "XX",
+      "title": "Internal Error"
+    }
+  },
+  "XX001": {
+    "constant": "data_corrupted",
+    "meaning": "DATA CORRUPTED",
+    "class": {
+      "code": "XX",
+      "title": "Internal Error"
+    }
+  },
+  "XX002": {
+    "constant": "index_corrupted",
+    "meaning": "INDEX CORRUPTED",
+    "class": {
+      "code": "XX",
+      "title": "Internal Error"
+    }
+  }
+}
