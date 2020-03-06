@@ -11,7 +11,7 @@ document.querySelector('table.CALSTABLE tbody').querySelectorAll('tr').forEach(r
     classCode = classCode.split(' ')[1]
     classesByCode[classCode] = {
       code: classCode,
-      title: classTitle
+      title: classTitle.trim()
     }
   } else {
     let [codeCell, meaningCell, constantCell] = cells
@@ -29,3 +29,5 @@ document.querySelector('table.CALSTABLE tbody').querySelectorAll('tr').forEach(r
 })
 
 console.log(obj)
+
+copy(obj)
